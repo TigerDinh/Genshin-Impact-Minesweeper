@@ -1,0 +1,69 @@
+CMPT 276 Assignment 3 Marking Guide
+for Dr. Brian's class
+
+Assignment must be done individually or in pairs (2-students).
+There is no difference in marking for individuals or pairs.
+
+Total   = 100 marks
+Maximum = 105 marks
+
+[50] Functional Requirements
+    All functional requirements are worth marks. Marking will pay special attention to:
+    [30] Correct play of the game.
+    [10] Works correctly with different size game boards and # mines.
+	[5]  Options screen functions correctly, and values save between application executions
+	     Must use a Singleton model class.
+    [5]  Help screen with correctly hyperlinked text; splash screen; main-menu.
+
+[25] Non-functional requirements
+    All functional requirements must be completed. Marking will pay special attention to:
+	[5] Application theme
+	   - Nicely executed application theme.
+       - Background on all screens (need not be very theme related)
+    [10] Activity navigation
+	   - All required activities present.
+       - Buttons and menus lead between screens correctly.
+       - Back-button correctly navigate up activity call stack.
+	     (OK if back button on welcome screen does not work.)
+	[10] Maintainable code
+	   - Good code quality
+	     Each class should have a comment explaining its purpose; individual functions need not.
+		 All variables, classes, functions must have excellent names.
+		 Reasonably small functions without deep nesting.
+	   - Game logic in separate package from UI code
+
+[10] Git Repository
+	[10] Must have 3 issues, 3 feature branches merged to master.
+	     Must have good commit messages on most commits.
+	     (OK for some to be less meaningful when trying to work through GIT problems).
+		 Marked via either screenshots, or GitLab directly.
+
+	[-4] failure to generate a Git tag
+    [-4] for not giving TA any permissions for repo.
+    [-2] for giving TA insufficient permissions for repo (must be developer)
+
+[15] "Optional" Features
+	You may attempt any number of these optional features you like.
+	List them in your docs/readme.txt file, as described in the assignment document.
+	[ 5] Welcome screen: animation
+	[ 3] Main menu: nice buttons and better than expected screen look
+	[10] Game: Scanning animation along row/column when scanning for mines
+	[ 3] Game: Play sound on scan and on find a mine
+	[10] Game: Save game state if app closed while game playing.
+	     - Restarting app restarts game where you were.
+	[10] Display & Save # games started (total), and best score between launches.
+	     - Options screen able to reset number games played to 0, and clear all high scores.
+	     - Must store best score for each possible game configuration and display
+	       the best score for the current configuration while playing the game.
+
+General Deductions to be applied wholistically:
+	[-5] for incorrect docs/ folder
+    [-4] for not giving TA any permissions for repo.
+    [-2] for giving TA insufficient permissions for repo (must be developer)
+
+
+Forward to Dr. Fraser if...
+- Material is suspiciously similar to another submission.
+
+Marking Configuration:
+- Android 8 (or better) running the "Pixel 2" hardware specification in landscape orientation.

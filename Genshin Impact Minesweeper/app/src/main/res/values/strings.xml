@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Genshin Impact Seeker</string>
+    <string name="scan_used">Number of Scans Used: </string>
+    <string name="character_found_1">Found</string>
+    <string name="character_found_2">out of</string>
+    <string name="character_found_3">characters</string>
+    <string name="winning_dialog_1">Congratulations!\nYou found all </string>
+    <string name="winning_dialog_2">characters\nScans used: </string>
+    <string name="row_by_column_1">rows x </string>
+    <string name="row_by_column_2">columns</string>
+    <string name="character_option">characters</string>
+    <string name="about_me_1">About Me</string>
+    <string name="about_me_2">Hi I\'m Tiger. I made this project for my CMPT 276
+            assignment 3. Here is the link to my course homepage:
+            https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home</string>
+    <string name="how_to_play">You are the explorer of Teyvat and you hope to find the characters
+            of this world. Find them with the least amount of scans as possible to win.
+            To search an area, click on the button to reveal that area. It may be a character or
+            a clue. If it is a clue, then the scan counter will increase and a number will display
+            on that area which indicates how many characters are on that row or on that column.
+            If you find a character, then your scan counter will not increase. You may click on
+            the character to ask him/her for a clue. This will also increase
+            your scan counter.</string>
+    <string name="resource_info">
+        Welcome Screen Image:
+            https://wall.alphacoders.com/big.php?i=1136851
+        \nMain Menu Image:
+            https://wall.alphacoders.com/big.php?i=1161813
+        \nOption Menu Image:
+            https://wall.alphacoders.com/wallpaper.php?i=1129597&amp;w=1920&amp;h=1080&amp;type=crop
+        \nHelp Screen Image:
+            https://wall.alphacoders.com/wallpaper.php?i=1145587&amp;w=1920&amp;h=1080&amp;type=crop
+        \nGame Screen Image:
+            https://wall.alphacoders.com/big.php?i=1161890
+        \nCharacter Icons:
+            https://www.etsy.com/es/shop/Yami11Arts
+            \nhttps://www.reddit.com/r/Genshin_Impact/comments/missf3/genshin_impact_chibis
+            \nhttps://www.reddit.com/r/Genshin_Impact/comments/jhutg9/i_drew_27_genshin_chibis
+        \nAlertDialog Image:
+            https://wall.alphacoders.com/big.php?i=1148326
+        \nApp Icon:
+            https://www.pngaaa.com/detail/4789681</string>
+</resources>
